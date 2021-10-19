@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import ActiveButton from 'react-bootstrap/Button';
-// import { Col } from 'react-bootstrap';
 
 const Button = ({ onClick, variant, buttonName }) => {
   return (
