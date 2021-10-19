@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RxJS-timer/static/css/main.b28875af.chunk.css",
+    "main.js": "/RxJS-timer/static/js/main.ab8dc4e7.chunk.js",
+    "main.js.map": "/RxJS-timer/static/js/main.ab8dc4e7.chunk.js.map",
+    "runtime-main.js": "/RxJS-timer/static/js/runtime-main.decb7e9b.js",
+    "runtime-main.js.map": "/RxJS-timer/static/js/runtime-main.decb7e9b.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/RxJS-timer/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.799fbed8.chunk.js": "/RxJS-timer/static/js/2.799fbed8.chunk.js",
+    "static/js/2.799fbed8.chunk.js.map": "/RxJS-timer/static/js/2.799fbed8.chunk.js.map",
+    "index.html": "/RxJS-timer/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/RxJS-timer/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.b28875af.chunk.css.map": "/RxJS-timer/static/css/main.b28875af.chunk.css.map",
+    "static/js/2.799fbed8.chunk.js.LICENSE.txt": "/RxJS-timer/static/js/2.799fbed8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.decb7e9b.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.799fbed8.chunk.js",
+    "static/css/main.b28875af.chunk.css",
+    "static/js/main.ab8dc4e7.chunk.js"
+  ]
+}
