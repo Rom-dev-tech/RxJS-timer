@@ -3,11 +3,10 @@ import Timer from 'components/Timer';
 import Button from 'components/Button';
 import Title from 'components/Title';
 import PageContainer from 'components/PageContainer';
+import { ButtonGroup } from './ButtonsGroup.styled';
 
 import { interval } from 'rxjs';
 import { map } from 'rxjs/operators';
-
-import { Row } from 'react-bootstrap';
 
 const TimerViews = () => {
   const [timer, setTimer] = useState(0);
@@ -68,12 +67,11 @@ const TimerViews = () => {
       <Title title="Timer" />
 
       <Timer timePast={timer ? timer : diff} />
-
-      <Row className="mx-0">
+      <ButtonGroup>
         <Button onClick={onStartHandlerClick} variant="primary" buttonName="Start/Stop" />
         <Button onClick={onWaitHandlerClick} variant="primary" buttonName="Wait" />
         <Button onClick={onResetHandlerClick} variant="primary" buttonName="Reset" />
-      </Row>
+      </ButtonGroup>
     </PageContainer>
   );
 };
