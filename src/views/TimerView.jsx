@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Timer from 'components/Timer';
-import Btn from 'components/Btn';
+import Button from 'components/Button';
 import Title from 'components/Title';
 import PageContainer from 'components/PageContainer';
 
@@ -70,9 +70,9 @@ const TimerViews = () => {
       <Timer timePast={timer ? timer : diff} />
 
       <Row className="mx-0">
-        <Btn onClick={onStartHandlerClick} variant="success" btnName="Start/Stop" />
-        <Btn onClick={onWaitHandlerClick} variant="warning" btnName="Wait" />
-        <Btn onClick={onResetHandlerClick} variant="danger" btnName="Reset" />
+        <Button onClick={onStartHandlerClick} variant="primary" buttonName="Start/Stop" />
+        <Button onClick={onWaitHandlerClick} variant="primary" buttonName="Wait" />
+        <Button onClick={onResetHandlerClick} variant="primary" buttonName="Reset" />
       </Row>
     </PageContainer>
   );

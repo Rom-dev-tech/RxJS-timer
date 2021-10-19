@@ -8,6 +8,6 @@ export const TimerWrapper = styled.div`
   justify-content: center;
 `;
 
-export const TimerStyle = styled.h3`
+export const TimerStyle = styled.span`
   font-size: 10rem;
 `;
