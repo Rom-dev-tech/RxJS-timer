@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import helpers from 'helpers/helperFunctionForTimer';
+import { helperFunctionForTimer } from 'helpers/helperFunctionForTimer';
 import { TimerWrapper, TimerStyle } from './Timer.styled';
 
 const Timer = ({ timePast }) => {
@@ -10,13 +10,13 @@ const Timer = ({ timePast }) => {
 
   useEffect(() => {
     let hours = Math.floor(timePast / 3600);
-    setHours(helpers.helperFunctionForTimer(hours));
+    setHours(helperFunctionForTimer(hours));
 
     let minutes = Math.floor((timePast % 3600) / 60);
-    setMinutes(helpers.helperFunctionForTimer(minutes));
+    setMinutes(helperFunctionForTimer(minutes));
 
     let seconds = timePast % 60;
-    setSeconds(helpers.helperFunctionForTimer(seconds));
+    setSeconds(helperFunctionForTimer(seconds));
   }, [timePast]);
 
   return (
