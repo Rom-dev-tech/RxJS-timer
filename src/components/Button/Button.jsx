@@ -2,7 +2,11 @@ import PropTypes from 'prop-types';
 import ActiveButton from 'react-bootstrap/Button';
 
 const Button = ({ onClick, buttonName }) => {
-  return <ActiveButton onClick={onClick}>{buttonName}</ActiveButton>;
+  return (
+    <ActiveButton style={{ minWidth: 150 }} onClick={onClick}>
+      {buttonName}
+    </ActiveButton>
+  );
 };
 
 Button.propTypes = {
