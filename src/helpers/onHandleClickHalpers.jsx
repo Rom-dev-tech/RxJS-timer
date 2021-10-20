@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { interval } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-const OnHandlerClick = (t, d, s, p) => {
+const OnHandlerClick = (t = 0, d = 0, s = '', p = true) => {
   const [timer, setTimer] = useState(t);
   const [diff, setDiff] = useState(d);
   const [subscription, setSubscription] = useState(s);
