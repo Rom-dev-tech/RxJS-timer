@@ -16,9 +16,9 @@ const TimerViews = () => {
       <Timer timePast={timer ? timer : diff} />
 
       <ButtonGroup>
-        <Button onClick={onStartHandlerClick} variant="primary" buttonName="Start/Stop" />
-        <Button onClick={onWaitHandlerClick} variant="primary" buttonName="Wait" />
-        <Button onClick={onResetHandlerClick} variant="primary" buttonName="Reset" />
+        <Button onClick={onStartHandlerClick} buttonName="Start/Stop" />
+        <Button onClick={onWaitHandlerClick} buttonName="Wait" />
+        <Button onClick={onResetHandlerClick} buttonName="Reset" />
       </ButtonGroup>
     </PageContainer>
   );

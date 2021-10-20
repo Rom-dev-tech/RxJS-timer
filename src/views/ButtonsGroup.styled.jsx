@@ -1,5 +1,10 @@
 import styled from '@emotion/styled';
 
 export const ButtonGroup = styled.div`
-  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
