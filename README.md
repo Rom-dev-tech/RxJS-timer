@@ -1,12 +1,11 @@
 # RxJS-timer
 
-Реализовать секундомер, который подсчитывает время в формате «HH: MM: SS»
+Implement a stopwatch that counts time in the "HH: MM: SS" format
 
-Секундомер должен иметь следующие кнопки:
+The stopwatch must have the following buttons:
 
-- «Start / Stop» - запуск / остановка отсчета времени, останавливает и обнуляет значение таймера.
+"Start / Stop" - start / stop timing, stops and resets the timer value.
 
-- «Wait» - работает на двойной клик (время между нажатиями не более 300 мс!) таймер должен
-  прекратить отсчет времени; если после него нажать старт, то возобновляется отсчет.
+"Wait" - works on a double click (the time between clicks is not more than 300 ms!); The timer must stop timing; if you press start after it, then the countdown is resumed.
 
-- «Reset» - сброс секундомера на 0. Обнуляет секундомер и снова начинает отсчет.
+"Reset" - resets the stopwatch to 0. Resets the stopwatch and starts counting again.
